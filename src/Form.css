@@ -1,0 +1,82 @@
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.carList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: flex;
+  align-self: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
+}
+
+input {
+  width: calc(100% - 22px);
+  margin: 5px 0;
+  min-width: 300px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  border: 6px solid #007bff;
+  border-radius: 5px;
+  margin: 20px;
+  width: 200px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
